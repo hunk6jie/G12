@@ -8,7 +8,7 @@
 	<!-- spring配置文件路径 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath*:resources/applicationContext_*.xml</param-value>
+		<param-value>classpath*:spring/applicationContext_*.xml</param-value>
 	</context-param>
 
 	<!-- Spring监听器 -->
@@ -24,7 +24,7 @@
 		<init-param>
 			<description>springmvc</description>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath*:resources/spring-mvc.xml</param-value>
+			<param-value>classpath*:spring/spring-mvc.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
